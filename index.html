@@ -5,43 +5,54 @@
 
         <title> My Portfolio Page</title>
 
-        <style>
-
-        h1{
-
-            color :brown;
-        }
-
-        *{
-
-            border:solid;
-        }
-
-            </style>
-
+         <link rel="stylesheet"
+         type="text/css"
+         href="style.css"
+         />
 
     </head>
 
     <body>
 
-        <center>
+        <div class="header">
+    
     <h1> Sanit Arya </h1>
-    <a href = "project.html"> Projects </a> <br/>
-    <br/><a href = "aboutMe.html"> About Me </a> 
-    </center>
-    <center>
-    <h2>These are the games designed by me</h2>
+
+    <div class="Menu">
+    <a href = "index.html"> Projects </a>
+    <a href = "aboutMe.html"> About Me </a> 
+    </div>
+
+    
+    </div>
+    <h2 style="text-align:center">These are the games designed by me</h2>
     <p>we have used p5.play,p5.js,matter.js libraries </p>
-    </center>
 
-    <a href  = "https://editor.p5js.org/sanitarya786/present/wqUMjqY7J"><img src = "trex.png"></a>
-    <p>Trex Runner game </p>
+    <div class="grid">
 
-    <a href  = "#"><img src = "fb.png" width = 50 height = 50></a>
+        <div class="item">
+        
+        <a href  = "https://editor.p5js.org/sanitarya786/present/wqUMjqY7J"><img src = "trex.png" width = 80 height = 80></a>
+        <p>Trex Runner game </p>
+        </div>
 
-    <a href  = "#"><img src = "youtube.png"width = 50 height = 50></a>
+        <div class="item">
+        <a href  = "https://sanitarya.github.io/Plinko"><img src = "plinko.jpg" width = 80 height = 80></a>
+        <p>Plinko With Scoring </p>
+        </div>
 
-    <a href  = "#"><img src = "GitHub.png" width = 50 height = 50></a>
+        <div class="item">
+        <a href  = "https://sanitarya.github.io/Monkey-Go-Happy/"><img src = "MGH.jpg" width = 80 height = 80></a>
+        <p>Monkey Go Happy</p>
+        </div>
+    </div>
+
+    <div class="footer">
+    <a href  = "https://www.facebook.com/sanit.arya.1"><img src = "fb.png" width = 50 height = 50></a>
+
+    <a href  = "https://github.com/SanitArya"><img src = "GitHub.png" width = 50 height = 50></a>
+</div>
+
 
     </body>
 

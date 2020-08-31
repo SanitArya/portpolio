@@ -1,0 +1,45 @@
+h1{
+
+    color :white;
+}
+
+h2,p{
+
+    text-align: center;
+}
+
+.header{
+
+    background-color: purple ;
+
+    display:flex;
+    justify-content: space-between;
+}
+
+a{
+
+    color: cyan;
+}
+.Menu{
+
+
+}
+
+.grid{
+
+  
+    display:flex;
+    justify-content: space-evenly;  
+
+    flex-wrap:wrap;
+
+}
+
+.footer{
+
+    display:flex;
+    justify-content: flex-end;  
+
+
+}
+
